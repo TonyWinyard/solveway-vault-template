@@ -1,0 +1,12 @@
+# Private never goes to GitHub. The folder stays; what you put in it does not.
+Private/*
+!Private/README.md
+
+# Obsidian's own workspace state, not worth saving
+.obsidian/workspace*
+.obsidian/cache
+.DS_Store
+
+# The course files repository, cloned inside your vault. It has its own
+# history in its own repository, so your vault repository ignores it.
+Course-Files/
